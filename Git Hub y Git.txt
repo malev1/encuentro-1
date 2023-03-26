@@ -1,0 +1,65 @@
+
+VINCULAR REPOSITORIOS REMOTOS Y LOCALES 
+
+
+1- Nos posicionamos sobre la carpeta que queremos subir a Git Hub
+
+2- click derecho y "Git Bash here"
+
+3- Se abre la consola, alli escribimos:
+
+Git init = para poder empezar a operar. 
+
+4- Vinculamos nuestro repositorio local con el remoto:
+
+git remote add origin URL 
+
+5- Controlo los cambios que hubo con 
+
+git status 
+
+5- Añadimos los cambios con:
+
+Git add . 
+
+Si solo queremos un archivo git add "nombre" 
+
+6- Commiteamos (decimos que version es o alguna referencia) los cambios:
+
+git commit -m "Mensaje"
+
+7- Pusheamos al repositorio remoto:
+
+git push origin + la rama en la que estamos trabajando (figura en el parentesis).
+
+La manera general es: 
+git push -nombre-remoto- -nombre de la rama- 
+
+
+
+
+CLONAR UN REPOSITORIO 
+-git clone URL 
+
+
+CONCEPTOS CLAVES 
+
+
+Git = Es un sistema de control de versiones. 
+
+GitHub = Es una plataforma de repositorios remotos. 
+
+Git init = Comando para iniciar un repositorio de manera LOCAL. 
+
+Git status = lo usamos para tener info de nuestra rama. 
+
+Git add = Para incluir cambios en el repositorio local. 
+
+Git commit = Para guardar nuestros cambios en el repositorio local. 
+
+Git push = Para enviar nuestros cambios al repositorio remoto. 
+
+Git Clone = para clonar un repositorio de GitHub.
+
+
+https://docs.google.com/forms/d/e/1FAIpQLSeS-GIwsUhOdZN5-GhvSB1t5LrDSifycA64Lv76pvFcroAZ8w/viewscore?pli=1&pli=1&viewscore=AE0zAgBJP3UniCvMO5MxhytrtbX-wM3S7uI6cmLhYmHsyh7JxrMuzzI_9YCCxJznfg
